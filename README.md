@@ -34,100 +34,100 @@ Maintain Bank Details, Name of the benefits, and Customer details
 Record Beneficiary transactions
 
 🛠️ Database Design
-📌 ER Diagram Includes Entities:
+ 📌 ER Diagram Includes Entities:
 
-Customer
+ Customer
 
-Account
+ Account
 
-Transaction
+ Transaction
 
-Beneficiary
+ Beneficiary
 
-📌 Design Highlights
+ 📌 Design Highlights
 
-Fully normalized database (up to 3NF)
+ Fully normalized database (up to 3NF)
 
-Proper Primary Keys, Foreign Keys, UNIQUE constraints
+ Proper Primary Keys, Foreign Keys, UNIQUE constraints
 
-Referential integrity maintained across all tables
+ Referential integrity maintained across all tables
 
-🧪 SQL Concepts Used
+ 🧪 SQL Concepts Used
 
-DDL (Data Definition Language)
+ DDL (Data Definition Language)
 
-CREATE, ALTER, DROP
+ CREATE, ALTER, DROP
 
-Table creation with constraints
+ Table creation with constraints
 
-DML (Data Manipulation Language)
+ DML (Data Manipulation Language)
 
-INSERT, UPDATE, DELETE
+ INSERT, UPDATE, DELETE
 
-DQL (Data Query Language)
+ DQL (Data Query Language)
 
-SELECT with JOIN
+ SELECT with JOIN
 
-Advanced SQL
+ Advanced SQL
 
-Stored Procedures for deposit, withdrawal, and balance check
+ Stored Procedures for deposit, withdrawal, and balance check
 
-🧱 Database Schema (Overview)
+ 🧱 Database Schema (Overview)
 
-Here is a high-level schema structure (you can add your table definitions below):
+ Here is a high-level schema structure (you can add your table definitions below):
 
-Table Name	Description
-customer	Stores customer personal details
-account	Stores account information linked to customer
-transaction	Logs deposits, withdrawals, and transfers
-Beneficiary	Stores all beneficiary info such as benefit names,account number, CustomerID
+ Table Name	Description
+ Customer	Stores customer personal details
+ Account	Stores account information linked to customer
+ Transaction	Logs deposits, withdrawals, and transfers
+ Beneficiary	Stores all beneficiary info such as benefit names,account number, CustomerID
 
 
-🚀 How to Run the Project
+ 🚀 How to Run the Project
 
-1. Clone the Repository
-git clone https://github.com/saijyothi-18/banking_management_system-dbms.git
+ 1. Clone the Repository
+ git clone https://github.com/saijyothi-18/banking_management_system-dbms.git
 
-2. Import SQL File
+ 2. Import SQL File
 
-Open MySQL Workbench / SQL Server / PostgreSQL
+ Open MySQL Workbench / SQL Server / PostgreSQL
 
-Create a new database
+ Create a new database
 
-Import the provided name.sql script
+ Import the provided name.sql script
 
-3. Execute Queries
+ 3. Execute Queries
 
-Run table creation queries
+ Run table creation queries
 
-Insert sample data
+ Insert sample data
 
-Execute stored procedures, triggers, and views
+ Execute stored procedures, triggers, and views
 
-📊 Sample SQL Queries
-View all customers
-SELECT * FROM customer;
+ 📊 Sample SQL Queries
+ View all customers
+ SELECT * FROM customer;
 
-Check account balance
-SELECT customer_id, account_id, balance FROM account;
+ Check account balance
+ SELECT customer_id, account_id, balance FROM account;
 
-View transaction history
-SELECT * FROM transaction ORDER BY transaction_date DESC;
+ View transaction history
+ SELECT * FROM transaction ORDER BY transaction_date DESC;
 
-🧩 Future Enhancements
+ 🧩 Future Enhancements
 
-Integrate with a front-end UI (Python/Java/HTML+JS)
+ Integrate with a front-end UI (Python/Java/HTML+JS)
 
-Add interest calculation functions
+ Add interest calculation functions
 
-Create dashboards in Power BI or Tableau
+ Create dashboards in Power BI or Tableau
 
-📘 Learning Outcomes
+ 📘 Learning Outcomes
 
-Strong understanding of Relational Database Design
+ Strong understanding of Relational Database Design
 
-Hands-on experience with SQL queries
+ Hands-on experience with SQL queries
 
-Improved skills in data modeling and normalization
+ Improved skills in data modeling and normalization
 
 Ability to simulate real-world banking operations in a DBMS
